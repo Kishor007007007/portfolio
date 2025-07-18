@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font Styles */
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.libertinus-math-regular {
+  font-family: "Libertinus Math", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #0a0a0a;
+}
+#ithoda-content-heading{
+    display: inline-block;
+    margin-top: 20px;
+     animation-name: ithoda-content-heading-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1ms;
+}
+.first-heading{
+    color: #f0f0f0;
+    margin-top: 20px;
+    margin-left: 20px;
+   font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    display: inline;
+     animation-name: ithoda-content-heading-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1ms;
+   
+    
+}
+ #nxt-box1:hover{
+    transform: scalex(1.1);
+    transition: 1s;}
+.first-hr{
+       width: 350px;
+       margin-left: 20px;
+       margin-top:5px;
+       position: absolute;
+       opacity: 0.5;
+        animation-name: first-hr-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1ms;
+       
+}
+.second-heading{
+           color: #f0f0f0;
+           margin-left:250px;
+           display: inline;
+           font-family: "Roboto", sans-serif;
+           font-size: 25px;
+           
+           
+}
+.second-hr{
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 250px;
+    color: rgb(166, 166, 166);
+    opacity: 0.5;  
+    animation-name: second-hr-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 2ms;
+}
+#ithoda-content-heading2{
+    display: inline-block;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+
+/* BOX SECTION */
+
+#first-box{
+    width: 380px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: rgb(102, 102, 102);
+    background-color: #121212;
+    box-sizing: border-box;
+    display: inline;
+    position: absolute;
+    margin-top: 90px;
+    right: 56%;
+    animation-name: first-box-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2ms;
+    
+   
+    
+}
+#first-box :hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.box-h3{
+    color: #f0f0f0;
+    font-size: 11.72px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.box-h5{
+    font-size: 10px;
+    margin-top: 5px;
+    font-style: italic;
+    margin-left: 15px;
+}
+.box-h6{
+     font-size: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+.box-h4{
+    font-size: 10px;
+    color: #f0f0f0;
+    margin-top: 9px;
+    font-family: "Roboto", sans-serif;
+    opacity: 0.8;
+    margin-left: 15px;
+    margin-top: 15px;
+
+
+}
+/* SECOND BOX */
+
+#second-box{
+     width: 380px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: rgb(102, 102, 102);
+    background-color: #121212;
+    box-sizing: border-box;
+    display: inline;
+    position: absolute;
+    margin-top: 230px;
+    right: 56%;
+     animation-name: second-box-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2ms;
+}
+#second-box :hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.sec-box-h3{
+    color: #f0f0f0;
+    font-size: 11.72px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.sec-box-h5{
+    font-size: 10px;
+    margin-top: 5px;
+    font-style: italic;
+    margin-left: 15px;
+}
+.sec-box-h6{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.sec-box-h4{
+    font-size: 10px;
+    color: #f0f0f0;
+    margin-top: 9px;
+    font-family: "Roboto", sans-serif;
+    opacity: 0.8;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#nxt-box1{
+
+
+}
+.chinna-kodu1{
+    width: 20px;
+    color: gray;
+    opacity: 0.5;
+    display: inline;
+    margin-left: 355px;
+    rotate: -90deg;
+    position: absolute;
+    margin-top: 100px;
+    
+}
+.chinna-kodu2{
+    width: 20px;
+    color: gray;
+    opacity: 0.5;
+    display: inline;
+    /* margin-left: 54%; */
+    rotate: -90deg;          
+    position: relative;
+     left: 408px;
+    top: 20px;
+}
+.chinna-kodu3{
+    width: 20px;
+    color: gray;
+    opacity: 0.5;
+    display: inline;
+    /* margin-left: 54%; */
+    rotate: -90deg;          
+    position: relative;
+     left: 408px;
+    top: 5px;
+}
+.first-span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 90px;
+    font-size: 15px;
+    font-style: weight;
+
+}
+.second-span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: inline;
+    position: relative;
+    left: 413px;
+    top: 20px;
+
+ }
+ .third-span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: inline;
+    position: relative;
+    left: 414px;
+    top: 6px;
+}
+#nxt-box1{
+        width: 351px;
+        height: 45px;
+        border: none;
+        display: flex;
+        display: absolute;
+        margin-left: 470px;
+        margin-top: 70px;
+        box-sizing: border-box;
+        animation: nxt-box1-animation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1ms;
+
+       
+}
+#nxt-box2{
+    width: 351px;
+        height: 45px;
+        border: none;
+        display: flex;
+        display: absolute;
+        margin-left: 475px;
+        margin-top: 29px;
+        box-sizing: border-box;
+        animation: nxt-box2-animation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1ms;
+}
+#nxt-box3{
+        width: 351px;
+        height: 45px;
+        border: none;
+        display: flex;
+        display: absolute;
+        margin-left: 475px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        animation: nxt-box2-animation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1ms;
+}
+
+
+
+#nxt-box1 img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 30px;
+
+
+}
+#nxt-box2 img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 30px;
+    
+    
+}
+#nxt-box3 img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 30px;
+
+
+}
+
+#nxt-box1 img:hover{
+    scale: 1.1;
+}
+#nxt-box2 img:hover{
+    scale: 1.1;
+}
+#nxt-box3 img:hover{
+    scale: 1.1;
+}
+@keyframes nxt-box2-animation{
+     from{transform: translatex(500px);}
+  to{transform: translatex(px);}
+         }
+
+@keyframes nxt-box1-animation{
+     from{transform: translatex(500px);}
+  to{transform: translatex(px);}
+         }
+
+@keyframes first-box-animation{
+    
+     from{transform: translatey(-35px);}
+  to{transform: translatex(px);}
+         }
+@keyframes second-box-animation{
+    
+     from{transform: translatey(-180px);}
+  to{transform: translatex(px);}
+         }
+         @keyframes first-hr-animation{
+       from{transform: translatex(-400px);}
+  to{transform: translatex(px);}
+         }
+          @keyframes second-hr-animation{
+       from{transform: translatex(450px);}
+  to{transform: translatex(px);}
+         }
+  @keyframes ithoda-content-heading{
+       from{transform: translatex(450px);}
+  to{transform: translatex(px);}
+         }
+
+
+
+
+
+
